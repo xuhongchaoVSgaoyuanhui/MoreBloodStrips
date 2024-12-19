@@ -12,7 +12,7 @@ How many steps are needed?
 2. Call the FU_CompatibleWithc_Custom_Class function and cast the returned object to your own UserWidget object.
 3. Call the FU_CustAddChildWidget_to_ParentWidget function and make your preferred settings for it, override the default values, and promote the returned bp_Implementation_Object object reference to a variable for convenient subsequent operations.
    
----After completing the above steps, you can already obtain the UI health bar defined by yourself. The following is the interaction of the health bar. ---
+------After completing the above steps, you can already obtain the UI health bar defined by yourself. The following is the interaction of the health bar. ------
 
 1. Call the FU_SetDamage function. It requires a reference to the bp_Implementation_Object object, which is why it was promoted to a variable in the third step.
 2. Set the returned value to the HP you created. Success.
